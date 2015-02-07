@@ -1,5 +1,13 @@
 # Spring PetClinic Sample Application
 
+## Bluemix
+
+```
+Build: mvn -B package
+Deploy: cf push "${CF_APP}" -p petclinic.war
+Log: cf logs "${CF_APP}" --recent
+```
+
 ## What does it look like?
 -spring-petclinic has been deployed here on cloudfoundry: http://demo-spring-petclinic.cfapps.io/
 
